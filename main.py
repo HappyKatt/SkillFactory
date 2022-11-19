@@ -31,22 +31,31 @@ print("||".join(d.keys()))
 print(1)
 L = ['a', 'b', 'c']
 print(id(L))
-
 L.append('d')
 print(id(L))
-
-money = int(input("Enter sum: 100000"))
-per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
-deposit = [5600, 5900, 4280, 4000]
-for value in per_cent.values():
-   result = int(money / 100 * value)
-   deposit.append(result)
-print(deposit)
-print(max(deposit))
-
 colors = 'red blue green'
-
 print(colors.split('red blue green'))
+s = 5
+a = 10
+if a > 0:
+   s = s + a
+else:
+   s = s - a
+
+print(s)
+print(list(range(5)))
+a = "foo"
+b = "bar"
+
+print(1 and a or b)
+a = ""
+b = "bar"
+
+print(1 and a or b)
+
+
+
+
 
 
 
